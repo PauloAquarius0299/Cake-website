@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Website espansivo de bolos </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body> 
+    <header class="header">
+        <a href="" class="logo"><i class='bx bxs-circle-three-quarter'></i> ConfentiBolos</a>
+
+        <nav class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Compras</a>
+        <a href="#">Sobre</a>
+        <a href="#">Veja</a>
+        <a href="#">Blog</a>
+        <a href="#">Contato</a>
+    </nav>
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="slides-container">
+
+            <div class="slide active">
+                <div class="content">
+                    <span>Coma um delicioso Bolo</span>
+                    <h3>Por até 50% <br> de desconto</h3>
+                    <a href="#" class="btn">Compre Agora</a>
+                </div>
+                <div class="img">
+                    <img src="imgs/banner03.png"  alt="">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <span>Coma um delicioso Bolo</span>
+                    <h3>Por até 50% <br> de desconto</h3>
+                    <a href="#" class="btn">Compre Agora</a>
+                </div>
+                <div class="img">
+                    <img src="imgs/banner02.png" style="height: 600px; padding:0%" alt="">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <span>Coma um delicioso Bolo</span>
+                    <h3>Por até 50% <br> de desconto</h3>
+                    <a href="#" class="btn">Compre Agora</a>
+                </div>
+                <div class="img">
+                    <img src="imgs/banner01.png" style="height: 600px; padding:0%" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+    </section>
+
+    <section class="banner-container">
+        <div class="banner">
+            <img src="imgs/limite01.jpg" alt="">
+            <div class="content">
+                <span>Limite de Compras</span>
+                <h3>de até 50% sem juros</h3>
+                <a href="#" class="btn">Compre Agora</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="imgs/limite02.jpg" alt="">
+            <div class="content">
+                <span>Limite de Compras</span>
+                <h3>de até 50% sem juros</h3>
+                <a href="#" class="btn">Compre Agora</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="imgs/limite03.jpg" alt="">
+            <div class="content">
+                <span>Limite de Compras</span>
+                <h3>de até 50% sem juros</h3>
+                <a href="#" class="btn">Compre Agora</a>
+            </div>
+        </div>
+    </section>
+
+        <div class="heading">
+            <h1>Nossa Loja </h1>
+        </div>
+        <section class="category">
+        <h1 class="title">Nossa <span> Categoria</span> <a href="#">Veja>></a> </h1>
+            <div class="box-container">
+                <a href="#" class="box">
+                    <img src="imgs/categoria01.jpg" alt="">
+                    <h3>Cupcakes</h3>
+                </a>
+                <a href="#" class="box">
+                    <img src="imgs/categori02.jpg" alt="">
+                    <h3>Cookies</h3>
+                </a>
+                <a href="#" class="box">
+                    <img src="imgs/categoria03.jpg" alt="">
+                    <h3>Torta de Frutas</h3>
+                </a>
+                <a href="#" class="box">
+                    <img src="imgs/categoria04.jpg" alt="">
+                    <h3>CheeseCake</h3>
+                </a>
+                <a href="#" class="box">
+                    <img src="imgs/categoria05.jpg" alt="">
+                    <h3>Bolo de Casamento</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="products">
+            <h1 class="title">Nossos <span> Produtos</span> <a href="#">Veja>></a> </h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/produto01.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Sabor Frutas Cítricas</h3>
+                        <div class="price">#69.99</div>
+                        <div class="starts">
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/produto02.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Bolo de Chocolate e Trufas</h3>
+                        <div class="price">#202.99</div>
+                        <div class="starts">
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/produto03.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Bolo Rosa Sabor Morango</h3>
+                        <div class="price">#108,99</div>
+                        <div class="starts">
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/produto04.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Sabor Frutas Vermelhas E Margarina</h3>
+                        <div class="price">#169.99</div>
+                        <div class="starts">
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/produto05.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Meio Bolo de Baunilha</h3>
+                        <div class="price">#89.99</div>
+                        <div class="starts">
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/produto06.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Sabor Maçã Verde Cobertura Blueberrys e Cerejas</h3>
+                        <div class="price">#250.99</div>
+                        <div class="starts">
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/produtos07.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Bolo de Leite Ninho Quermoso com Frutas Vermelhas</h3>
+                        <div class="price">#269.99</div>
+                        <div class="starts">
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-eye"></a>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/produtos08.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Sabor Limão Cobertura de Abacaxi</h3>
+                        <div class="price">#109.99</div>
+                        <div class="starts">
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="fas fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                            <i class="far fa-star">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="heading">
+            <h1>Quem somos?</h1>
+        </div>
+
+        <section class="about">
+            <div class="img">
+                <img src="imgs/sobre.jpg" alt="">
+            </div>
+            <div class="content">
+                <span> Bem Vindos a Nossa Loja</span>
+                <h3>ConfetiBolos Produtores </h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus impedit culpa itaque fugiat, omnis nostrum aspernatur. Distinctio temporibus vel quo beatae repellat, qui soluta! In aperiam quae aliquam sunt autem.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus impedit culpa itaque.</p>
+                <a href="" class="btn">Saiba Mais</a>
+            </div>
+        </section>
+        <section class="gallery">
+            <h1 class="title">Nossos <span> Galeria</span> <a href="#">Veja>></a> </h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="imgs/galeria01.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share-alt"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/galeria02.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share-alt"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/galeria03.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share-alt"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/galeria04.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share-alt"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/galeria05.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share-alt"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/galeria06.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share-alt"></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="heading">
+            <h1>Avaliação dos Clientes</h1>
+        </div>
+
+        <section class="info-container">
+
+            <div class="info">
+                <img src="imgs/delivery.png" alt="">
+                <div class="content">
+                    <h3>Entrega rapida</h3>
+                    <span>Entre 30 minutos</span>
+                </div>
+            </div>
+            <div class="info">
+                <img src="imgs/ligação.png" alt="">
+                <div class="content">
+                    <h3>Atendimento 24h</h3>
+                    <span>Nós ligue a qualquer hora do dia</span>
+                </div>
+            </div>
+            <div class="info">
+                <img src="imgs/pay.png" alt="">
+                <div class="content">
+                    <h3>Facil pagamento</h3>
+                    <span>Dinheiro, Cartão, Pix, Boleto, PicPay e QRCode</span>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="review">
+
+            <div class="box">
+                <div class="user">
+                    <img src="imgs/perfil01.jpg" alt="">
+                    <div class="info">
+                        <h3>Eduardo Chavier</h3>
+                        <span>Cliente satisfeito</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla porro perferendis facere consequuntur modim.</p>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="imgs/perfil02.jpg" alt="">
+                    <div class="info">
+                        <h3>Rodrigo Valdez</h3>
+                        <span>Cliente satisfeito</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla porro perferendis facere consequuntur modim.</p>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="imgs/perfil03.jpg" alt="">
+                    <div class="info">
+                        <h3>Paolla Montibeller</h3>
+                        <span>Cliente satisfeito</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla porro perferendis facere consequuntur modim.</p>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="imgs/perfil04.jpg" alt="">
+                    <div class="info">
+                        <h3>Fabiana Oliveira</h3>
+                        <span>Cliente satisfeito</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla porro perferendis facere consequuntur modim.</p>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="imgs/perfil05.jpg" alt="">
+                    <div class="info">
+                        <h3>Gisely Pretelly</h3>
+                        <span>Cliente satisfeito</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla porro perferendis facere consequuntur modim.</p>
+            </div>
+            <div class="box">
+                <div class="user">
+                    <img src="imgs/perfil06.jpg" alt="">
+                    <div class="info">
+                        <h3>Mari Ferraz</h3>
+                        <span>Cliente satisfeito</span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla porro perferendis facere consequuntur modim.</p>
+            </div>
+
+        </section>
+
+        <div class="heading">
+            <h1>Nosso Blog</h1>
+        </div>
+
+        <section class="blogs">
+            <h1 class="title">Nossos <span> Blogs</span> <a href="#">Veja>></a> </h1>
+            <div class="box-container">
+                
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/blog01.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fsa fa-calendar"></i>16 jan, 2022</a>
+                            <a href=""><i class="fsa fa-user">by adimistrador</i></a>
+                        </div>
+                        <h3>Fatia de castenhas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labeeritatis.</p>
+                        <a href="" class="btn">Leia Mais...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/blog02.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fsa fa-calendar"></i>19 Agos, 2022</a>
+                            <a href=""><i class="fsa fa-user">by adimistrador</i></a>
+                        </div>
+                        <h3>Bolo ninho redondo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labeeritatis.</p>
+                        <a href="" class="btn">Leia Mais...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/blog03.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fsa fa-calendar"></i>9 Fev, 2022</a>
+                            <a href=""><i class="fsa fa-user">by adimistrador</i></a>
+                        </div>
+                        <h3>Meu primeiro pedido</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labeeritatis.</p>
+                        <a href="" class="btn">Leia Mais...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/blog04.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fsa fa-calendar"></i>8 jun, 2022</a>
+                            <a href=""><i class="fsa fa-user">by adimistrador</i></a>
+                        </div>
+                        <h3>Cupcake de brigadeiro e doce de leite</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labeeritatis.</p>
+                        <a href="" class="btn">Leia Mais...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/blog05.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fsa fa-calendar"></i>7 Nov, 2022</a>
+                            <a href=""><i class="fsa fa-user">by adimistrador</i></a>
+                        </div>
+                        <h3>Massa Violeta</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labeeritatis.</p>
+                        <a href="" class="btn">Leia Mais...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/blog06.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icons">
+                            <a href=""><i class="fsa fa-calendar"></i>9 Abr, 2022</a>
+                            <a href=""><i class="fsa fa-user">by adimistrador</i></a>
+                        </div>
+                        <h3>Torta de frutas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labeeritatis.</p>
+                        <a href="" class="btn">Leia Mais...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="heading">
+            <h1>Entre em Contato</h1>
+        </div>
+
+        <section class="contact">
+
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-phone"></i>
+                <h3>Nosso numero</h3>
+                <p>+553191234-5678</p>
+                <p>+55319999-9999</p>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Nosso email</h3>
+                    <p>fulano123@gmail.com</p>
+                    <p>siglano456@gmail.com</p>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Nosso endereço</h3>
+                    <p>Belo Horizonte, Brazil - 0000</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <form action="">
+                <h3>Entre em Contato</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Digite seu nome:" class="box">
+                    <input type="text" placeholder="Digite seu email:" class="box">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Digite seu numero:" class="box">
+                    <input type="text" placeholder="Digite sua sugestão:" class="box">
+                </div>
+                <textarea placeholder="Sua mensagem" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+                </form>
+                <iframe class="map" src="https://www.google.com/maps/place/Belo+Horizonte,+MG/@-19.9021496,-44.2594256,11z/data=!3m1!4b1!4m6!3m5!1s0xa690cacacf2c33:0x5b35795e3ad23997!8m2!3d-19.919052!4d-43.9386685!16zL20vMGwzcTI?entry=ttu" frameborder="0"></iframe>
+            </div>
+            
+            
+        </section>
+        <div class="space"></div>
+
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#" class="fas fa-arrow-right">Inicio</a>
+                    <a href="#" class="fas fa-arrow-right">Compras</a>
+                    <a href="#" class="fas fa-arrow-right">Sobre</a>
+        <a href="#" class="fas fa-arrow-right">Veja</a>
+        <a href="#" class="fas fa-arrow-right">Blog</a>
+        <a href="#" class="fas fa-arrow-right">Contato</a>
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"><i class="fas fa-arrow-right"></i>my order</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>my favorite</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>my wishlist</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>my account</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>terms or use</a>
+                </div>
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <a href="#"><i class='bx bxl-twitter'></i>Twitter</a>
+                    <a href="#"><i class='bx bxl-facebook'></i>Facebook</a>
+                    <a href="#"><i class='bx bxl-instagram'></i>Instagram</a>
+                    <a href="#"><i class='bx bxl-linkedin'></i>Linkedin</a>
+                    <a href="#"><i class='bx bxl-pinterest'></i>Pinterst</a>
+                </div>
+
+                <div class="box">
+                    <h3>newsletter</h3>
+                    <p>subscribe for latest update</p>
+                    <form action="">
+                        <input type="email" placeholder="entre no seu endereço de email">
+                        <input type="submit" value="subscribe" class="btn">
+                    </form>
+                    <img src="" class="payments" alt="">
+                </div>
+                
+            </div>
+        </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
